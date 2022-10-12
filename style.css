@@ -329,7 +329,13 @@ Version: 0.1
 }
 .slider2.slider-area {
     background: url(assets/images/slider/hero2.jpg);
-    height: 850px;
+  /*  height: 850px; */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 950px;
+    position: relative;
+    z-index: 1;
 }
 .slider-content h4 {
     color: #CDA274;
@@ -3539,7 +3545,7 @@ ul.menu li a:hover {
 /*footer address*/
 .footer-socail-icon {
     float: left;
-    margin-right: 15px;
+    margin-right: 14px;
 }
 .footer-socail-icon i {
     display: inline-block;
@@ -4578,10 +4584,10 @@ span.flaticon-multiply i {
   width: 100px;
   height: 100px;
   margin: -50px 0 0 -50px;
-  border-radius: 50%;
   transition: all 1s 1s ease;
-  border: 3px solid transparent;
-  border-top-color: #9A241C;
+ /*  border-radius: 50%;  
+  border: 3px solid transparent; 
+  border-top-color: #9A241C; */
   -webkit-animation: spin 1.5s linear infinite;
   -moz-animation: spin 1.5s linear infinite;
   -o-animation: spin 1.5s linear infinite;
@@ -4594,9 +4600,9 @@ span.flaticon-multiply i {
   left: 6px;
   right: 6px;
   bottom: 6px;
-  border-radius: 50%;
+  /* border-radius: 50%;
   border: 3px solid transparent;
-  border-left-color: #FF3C00;
+  border-left-color: #FF3C00; */
   -webkit-animation: spin 2s linear infinite;
   -moz-animation: spin 2s linear infinite;
   -o-animation: spin 2s linear infinite;
@@ -4609,9 +4615,9 @@ span.flaticon-multiply i {
   left: 15px;
   right: 15px;
   bottom: 15px;
-  border-radius: 50%;
+  /*  border-radius: 50%;
   border: 3px solid transparent;
-  border-right-color: #fff;
+  border-right-color: #fff; */
   -webkit-animation: spin 2.5s linear infinite;
   -moz-animation: spin 2.5s linear infinite;
   -o-animation: spin 2.5s linear infinite;
